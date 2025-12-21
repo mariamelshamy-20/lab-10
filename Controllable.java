@@ -9,7 +9,7 @@ import java.io.IOException;
  *
  * @author Mariam Elshamy
  */
-interface Controllable
+interface Controlla
 {
 Catalog getCatalog();
 int[][] getGame(char level) throws NotFoundException;
@@ -21,3 +21,4 @@ int[][] solveGame(int[][] game) throws InvalidGame;
 // Logs the user action
 void logUserAction(UserAction userAction) throws IOException;
 }
+
